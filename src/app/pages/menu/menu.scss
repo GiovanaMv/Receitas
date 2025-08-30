@@ -1,0 +1,155 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5e1600dc;
+  padding: 30px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #FFEB50;
+  font-family: "Lora", sans-serif;
+
+  h1{
+    cursor: default;
+  }
+
+  .input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    align-content: center;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: #888;
+      pointer-events: none;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 10px 10px 35px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 24px;
+  font-family: "Lora", sans-serif;
+
+  h2 {
+    padding: 18px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: default;
+  }
+
+  .title-food {
+    color: #FFEB50;
+    background-color: #008F26;
+  }
+
+  .title-drink {
+    color: #493EA8;
+    background-color: #FFEB50;
+  }
+
+  .title-candy {
+    color: #FFEB50;
+    background-color: #5E1600;
+  }
+
+  .card {
+    width: 290px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 12px;
+      padding-left: 0px;
+
+      img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+
+      .infos {
+        list-style: none;
+        text-align: center;
+        max-width: 150px;
+
+        .nome {
+          color: #C95400;
+        }
+
+        .duracao {
+          color: #AF44B9;
+        }
+      }
+    }
+  }
+}
+
+aside {
+  margin-top: 32px;
+  justify-content: center;
+  font-family: "Lora", sans-serif;
+  align-content: center;
+  margin: 32px auto 0 auto;
+  width: fit-content; // ou uma largura fixa tipo 600px
+
+  h2 {
+    background-color: white;
+    color: #493EA8;
+    padding: 12px;
+    width: 290px;
+    border-radius: 35px;
+    text-align: center;
+    margin: 32px auto 0 auto;
+    cursor: default;
+  }
+
+  .alergicos {
+    display: flex;
+    margin-top: 20px;
+    gap: 80px;
+
+    .card-ovo,
+    .card-lacteo,
+    .card-graos,
+    .card-frutos {
+      background-color: #5E1600;
+      padding: 12px;
+      border-radius: 40px;
+      align-content: center;
+      text-align: center;
+      cursor: pointer;
+
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+
+      p {
+        color: #FFFFFF;
+        font-size: 0.9rem;
+        margin-top: 12px;
+      }
+    }
+  }
+}
