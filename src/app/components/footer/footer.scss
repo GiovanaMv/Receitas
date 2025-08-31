@@ -1,0 +1,22 @@
+footer{
+  padding: 0px;
+  margin-top: 32px;
+  background-color: white;
+
+  ul {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    padding-top: 10px;
+
+    li{
+      list-style: none;
+      text-align: center;
+      cursor: default;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

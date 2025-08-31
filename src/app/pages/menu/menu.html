@@ -11,15 +11,15 @@
   <section class="comidas">
     <h2 class="title-food"> Comidas </h2>
     <div class="card">
-      <ul>
+      <ul  [routerLink]="['/receita/pao-com-graos']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
-          <li class="nome"> Pão com Grãos </li>
-          <li class="duracao"> Duração: 30 min </li>
+          <li class="nome" >Pão com Grãos</li>
+          <li class="duracao">Duração: 30 min</li>
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="['/receita/salada-legumes']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Salada Oriental de Legumes </li>
@@ -27,7 +27,7 @@
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="['/receita/sopa-abobora']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Sopa de Abóbora </li>
@@ -40,7 +40,7 @@
   <section class="refresco">
     <h2 class="title-drink"> Refrescos </h2>
     <div class="card">
-      <ul>
+      <ul [routerLink]="['/receita/suco-manga']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Suco de Manga </li>
@@ -48,7 +48,7 @@
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="['/receita/suco-melancia']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Suco de Melancia </li>
@@ -56,7 +56,7 @@
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="['/receita/suco-cenoura']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Suco de Cenoura </li>
@@ -69,7 +69,7 @@
   <section class="doces">
     <h2 class="title-candy"> Doces </h2>
     <div class="card">
-      <ul>
+      <ul [routerLink]="['/receita/biscoito-canela']">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Biscoito de Canela </li>
@@ -77,7 +77,7 @@
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="'/receita/geleia-pessego'">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Geleia de Pêssego </li>
@@ -85,7 +85,7 @@
         </div>
       </ul>
 
-      <ul>
+      <ul [routerLink]="'/receita/panqueca-chocolate'">
         <img src="https://i.pinimg.com/736x/ea/16/f2/ea16f2006b0c81576fb48aa986ffc8ac.jpg" alt="">
         <div class="infos">
           <li class="nome"> Panqueca de Chocolate </li>
